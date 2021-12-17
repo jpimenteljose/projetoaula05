@@ -10,12 +10,18 @@ namespace ProjetoAula05_
             Console.WriteLine("\nSISTEMA DE CONTROLE DE EMPRESAS E FUNCIONÁRIOS\n");
 
             var empresaController = new EmpresaController();
+            var funcionarioController = new FuncionarioController();
 
             Console.WriteLine("(1) Cadastrar empresa");
             Console.WriteLine("(2) Atualizar empresa");
             Console.WriteLine("(3) Excluir empresa");
             Console.WriteLine("(4) Consultar empresas");
-            Console.WriteLine("(5) Sair");
+            Console.WriteLine("(5) Cadastrar Funcionário");
+            Console.WriteLine("(6) Atualizar funcionário");
+            Console.WriteLine("(7) Excluir funcionário");
+            Console.WriteLine("(8) Consultar funcionários");
+            Console.WriteLine("(9) Consultar funcionários por empresa");
+            Console.WriteLine("(0) Sair");
 
             try
             {
@@ -41,6 +47,26 @@ namespace ProjetoAula05_
                         Main(args); //recursividade
                         break;
                     case 5:
+                        funcionarioController.CadastrarFuncionario();
+                        break;
+                    case 6:
+                        funcionarioController.AtualizarFuncionario();
+                        Main(args);
+                        break;
+                    case 7:
+                        funcionarioController.ExcluirFuncionario();
+                        Main(args);
+                        break;
+                    case 8:
+                        funcionarioController.ConsultarFuncionario();
+                        Main(args);
+                        break;
+                    case 9:
+                        funcionarioController.ConsultarFuncionariosPorEmpresa();
+                        Main(args);
+                        break;
+                    case 0:
+                        Console.WriteLine("\nFIM DO PROGRAMA!");
                         break;
                 }
             }

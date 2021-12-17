@@ -557,11 +557,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CURSOS - 299GB\\COTI\\_Felipe_WebDeveloper C#.Net 2021\\Aula 06 - 30-04-2021 - Console\\ProjetoAula05_\\ProjetoAula05_\\ProjetoAula05_.csproj",
+      "projectUniqueName": "D:\\CURSOS - 299GB\\COTI\\_Felipe_WebDeveloper C#.Net 2021\\Aula 07 - 03-05-2021 - Console\\ProjetoAula05_\\ProjetoAula05_\\ProjetoAula05_.csproj",
       "projectName": "ProjetoAula05_",
-      "projectPath": "D:\\CURSOS - 299GB\\COTI\\_Felipe_WebDeveloper C#.Net 2021\\Aula 06 - 30-04-2021 - Console\\ProjetoAula05_\\ProjetoAula05_\\ProjetoAula05_.csproj",
+      "projectPath": "D:\\CURSOS - 299GB\\COTI\\_Felipe_WebDeveloper C#.Net 2021\\Aula 07 - 03-05-2021 - Console\\ProjetoAula05_\\ProjetoAula05_\\ProjetoAula05_.csproj",
       "packagesPath": "C:\\Users\\jpime\\.nuget\\packages\\",
-      "outputPath": "D:\\CURSOS - 299GB\\COTI\\_Felipe_WebDeveloper C#.Net 2021\\Aula 06 - 30-04-2021 - Console\\ProjetoAula05_\\ProjetoAula05_\\obj\\",
+      "outputPath": "D:\\CURSOS - 299GB\\COTI\\_Felipe_WebDeveloper C#.Net 2021\\Aula 07 - 03-05-2021 - Console\\ProjetoAula05_\\ProjetoAula05_\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
